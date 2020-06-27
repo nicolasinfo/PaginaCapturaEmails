@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+@font-face {
+    font-family: whitrait;
+    src: url('../fonts/whitrait.ttf');
+}
+
+@font-face {
+    font-family: Prototype;
+    src: url('../fonts/Prototype.ttf');
+}
+
+body{
+    background-color: #483D8B;
+}
+
+/*Mobile*/
+.imgebook{
+    margin-left: 10%;
+}
+
+.imgebook img{
+    margin-top: 11%;
+    width: 85vw;
+    height: 85vw;
+}
+
+.txt p{
+    color: white;
+    font-family: whitrait;
+    font-size: 5vw;
+    float: right;
+    margin-left: 2.5%;
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.txt{
+    height: 1vw;
+}
+
+#email {
+    width: 90vw;
+    height: 6vw;
+    float:right;
+    margin-right: 5%;
+    position: relative;
+    margin-top: -97vw;
+    padding: 1.4vw;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #6495ED;
+    color: white;
+    border: 1px solid white;
+    font-family: Prototype;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   font-size: 3.5vw;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+   font-size: 3.5vw;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+   font-size: 3.5vw;
+}
+
+:-ms-input-placeholder {
+   color: white;
+   font-size: 3.5vw;
+}
+
+
+input[type=submit]{
+    text-align: center;
+    width: 13%;
+    float: right;
+    padding: 0.6vw;
+    margin-right: 43%;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -90vw;
+    background-color: white;
+    border: 1px solid #6495ED;
+    color:  #6495ED;
+    font-family: Prototype;
+    font-size: 2.5vw;
+}
+/*Mobile*/
+
+/*Desktop*/
+@media screen and (min-width: 768px){
+
+    .imgebook{
+        width: 50%;
+    }
+
+    .imgebook img{
+        margin-top: -12vw;
+        margin-left: 89%;
+        width: 45vw;
+        height: 43vw;
+    }
+
+    .txt p{
+        color: white;
+        font-family: whitrait;
+        font-size: 2.4vw;
+        float: right;
+        position: relative;
+        margin-top: 10%;
+        width: 50%;
+        height: 50%;
+        margin-right: 46%;
+    }
+
+    .txt{
+        height: 1vw;
+    }
+
+    #email {
+        border-radius: 6%;
+        width: 45vw;
+        height: 4vw;
+        float:right;
+        margin-right: 50%;
+        position: relative;
+        margin-top: -20vw;
+        padding: 1.6vw;
+        position: relative;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #6495ED;
+        border: 1px solid white;
+        font-family: Prototype;
+    }
+
+    ::-webkit-input-placeholder {
+       color: white;
+       font-size: 2vw;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color: white;
+       font-size: 2vw;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: white;
+       font-size: 2vw;
+    }
+
+    :-ms-input-placeholder {
+       color: white;
+       font-size: 2vw;
+    }
+
+    input[type=submit]{
+        width: 10%;
+        float: right;
+        padding: 0.6vw;
+        margin-right: 67%;
+        border-radius: 10px;
+        position: relative;
+        margin-top: -14.5vw;
+        background-color: white;
+        border: 2px solid #6495ED;
+        color:  ;
+        font-family: Prototype;
+        font-size: 1.3vw;
+    }
+}
+/*Desktop*/
